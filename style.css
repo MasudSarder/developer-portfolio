@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+section{
+    display: flex;
+}
+
+.headerOne{
+    width: 50%;
+    padding-left: 2%;
+}
+.headerOne img{
+    width: 75%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 15px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
